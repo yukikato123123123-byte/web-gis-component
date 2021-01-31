@@ -100,8 +100,108 @@ let baseLayerConfig = {
     }
 }
 
+let mapLabel = [
+    {
+        label: '在线Google地图',
+        options: [
+            {
+                value: 'googledz',
+                label: '谷歌电子地图'
+            },
+            {
+                value: 'googledx',
+                label: '谷歌地形图'
+            },
+            {
+                value: 'googlewx',
+                label: '谷歌卫星图'
+            }
+        ]
+    },
+    {
+        label: '在线天地图',
+        options: [
+            {
+                value: 'tdtdz',
+                label: '天地图电子地图'
+            },
+            {
+                value: 'tdtwx',
+                label: '天地图卫星图'
+            }
+        ]
+    },
+    {
+        label: '在线百度地图',
+        options: [
+            {
+                value: 'baidudz',
+                label: '百度电子地图'
+            },
+            {
+                value: 'baiduwx',
+                label: '百度卫星图'
+            }
+        ]
+    },
+    {
+        label: '在线高德地图',
+        options: [
+            {
+                value: 'gaodedz',
+                label: '高德电子地图'
+            },
+            {
+                value: 'gaodewx',
+                label: '高德卫星图'
+            }
+        ]
+    },
+    {
+        label: '在线腾讯地图',
+        options: [
+            {
+                value: 'qqmapdz',
+                label: '腾讯电子地图'
+            },
+            {
+                value: 'qqmapdx',
+                label: '腾讯地形图'
+            },
+            {
+                value: 'qqmapwx',
+                label: '腾讯卫星图'
+            }
+        ]
+    },
+    {
+        label: '智图在线地图（ArcGIS REST）',
+        options: [
+            {
+                value: 'geoqcs',
+                label: '彩色地图'
+            },
+            {
+                value: 'geoqns',
+                label: '暖色地图'
+            },
+            {
+                value: 'geoqhs',
+                label: '灰色地图'
+            },
+            {
+                value: 'geoqlh',
+                label: '蓝黑地图'
+            }
+        ]
+    },
+    {
+        label: '离线地图'
+    }
+]
 
 let maplist = {
+    mapLabel,
     baseMapUrl: baseMapUrl,
     baseLayerConfig: baseLayerConfig
 }
